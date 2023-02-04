@@ -19,3 +19,5 @@ func _ready() -> void:
 func _on_Area2D_body_entered(body: Node) -> void:
 	print("musica")
 	$AudioStreamPlayer.play()
+	
+	#get_tree().reload_current_scene()
